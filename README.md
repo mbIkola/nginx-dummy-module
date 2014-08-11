@@ -1,0 +1,2 @@
+nginx-dummy-module
+==================
