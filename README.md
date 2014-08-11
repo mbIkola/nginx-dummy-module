@@ -38,7 +38,7 @@ This module does nothing. It's just skeleton module for nginx.
 
 
 # Author 
- Nickolay Kharchevin  [Github](https://github.com/mbIkola)
+ Nickolay Kharchevin  [Github](https://github.com/mbIkola) [G+](https://plus.google.com/+NickolayKharchevyn)
 
 
 # Release History

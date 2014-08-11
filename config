@@ -1,0 +1,16 @@
+ngx_addon_name="ngx_dummy_module"
+
+
+HTTP_FILTER_MODULES="$HTTP_FILTER_MODULES ngx_http_dummy_filter" 
+
+NGX_ADDON_DEPS="$NGX_ADDON_DEPS \
+    $ngx_addon_dir/src/ngx_dummy_filter.h \
+    "
+
+NGX_ADDON_SRCS="$NGX_ADDON_SRCS \
+    $ngx_addon_dir/src/ngx_dummy_filter.c \
+    "
+
+CFLAGS="$CFLAGS -I$ngx_addon_dir" 
+
+   
